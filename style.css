@@ -11,9 +11,9 @@ div.margin {
 }
 body {
     background-image: url('img/Background.jpg');
-    /* background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;  
-    background-size: cover; */
+    background-size: cover;
     height: auto;
     padding-top: calc(var(--image-ratio)*100%);
 }
