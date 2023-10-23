@@ -5,16 +5,19 @@ font-family: sans-serif;
 } */
 div.margin {
     background-color: white;
-    width:900;
+    max-width:900;
     padding: 75;
     margin: auto;
 }
 body {
     background-image: url('img/Background.jpg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-attachment: fixed;  
-    background-size: cover;
-  }    
+    background-size: cover; */
+    height: auto;
+    padding-top: calc(var(--image-ratio)*100%);
+}
+
 /* table {
     border-collapse: collapse;
 } */
