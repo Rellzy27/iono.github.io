@@ -11,6 +11,11 @@ div.margin {
 }
 body {
     background-image: url('img/Background.jpg');
+    min-height: 100vh;
+
+    display: flexbox;
+	align-items: center;
+	justify-content: center;
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -24,6 +29,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    font-size: large;
 }
 a:link, a:visited {
     background-color: white;
@@ -51,4 +57,20 @@ hr.yellow {
 @font-face {
     font-family: Paldean;
     src: url(font/ThraexSansRegular-v1000.ttf);
+}
+.pokemon{
+	flex-basis: 80%;
+	/* display: flex; */
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	/* background-image: url(img/Background.jpg); */
+    background-color: gray;
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
 }
